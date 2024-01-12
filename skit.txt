@@ -1,0 +1,12 @@
+venv\Scripts\activate
+uvicorn main:app --reload --port 3001
+
+För att köra
+
+cd client
+npm run start
+
+Ny terminal
+
+cd server
+uvicorn main:app --reload --port 3001
